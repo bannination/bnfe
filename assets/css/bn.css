@@ -1,0 +1,83 @@
+body {
+    background-color: #282828;
+    color: white;
+    font-family: Lato, sans;
+    padding-top: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #aaa;
+    text-decoration: none;
+}
+
+a.homelink {
+    font-weight: 700;
+    font-size: 1.5em;
+
+    background-image: url('../img/skull.png');
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    padding-top: 0.3em;
+    padding-left: 50px;
+    height: 40px;
+}
+
+
+
+input.search {
+    background-color: #999;
+    color: black;
+    padding: 3px;
+    width: 200px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: 0px;
+    border: 1px solid black;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    border-top: 1px solid #555;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.highlighted-story .headline a {
+
+    font-family: Lato, sans;
+    font-weight: 300;
+    font-size: 2em;
+
+}
+
+
+.highlighted-story .extract {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-family: Lato, sans;
+    font-weight: 300;
+
+}
+
+div.story-entry
+{
+    background-color:white;
+    text:black;
+}
+
+.story-entry.odd div
+{
+    background-color:#ccc;
+}
+
+.story-entry a
+{
+    color:black;
+}

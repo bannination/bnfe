@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-lg-6 highlighted-story">
+
+    <div class="headline"><a href="{{stories[0].url}}">{{stories[0].headline}}</a></div>
+
+    <div class="extract">Not totally sure where this will come from, but Consequat fashion axe eiusmod paleo. Chia
+        locavore proident DIY. Cardigan 8-bit health goth readymade flexitarian. Dreamcatcher ea Carles Thundercats
+        Pinterest, pop-up Helvetica keffiyeh brunch quis est quinoa polaroid wayfarers Truffaut. Irony chambray occupy
+        culpa Godard leggings, ugh put a bird on it 90's migas master cleanse. Banksy gluten-free you probably haven't
+        heard of them, YOLO flexitarian hashtag nihil Williamsburg 3 wolf moon squid.
+    </div>
+
+    <div>
+
+        <i class="fa fa-2x fa-comments-o"></i>&nbsp;<a href="#/comments/{{stories[0].storyId}}">{{stories[0].commentCount}}
+        comment(s)</a>
+    </div>
+</div>
+
+<div class="col-lg-6 tag-cloud">
+
+    tag cloud will go here!
+</div>
+    </div>
+
+
+       <div class="storylist container">
+<div ng-repeat="story in stories" class="story-entry" ng-class-odd="odd">
+    <div class="col-lg-2"> <i class="fa fa-comments-o"></i>&nbsp;<a href="#/comments/{{story.storyId}}">{{story.commentCount}}
+        comment(s)</a></div>
+    <div class="col-lg-10"><a href="{{stories[0].url}}">{{story.headline}}</a></div>
+</div>
+       </div>

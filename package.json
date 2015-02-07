@@ -11,10 +11,10 @@
     "url": "https://github.com/bnfe.git"
   },
   "keywords": [
-    "bannination"
+    "bannination meta derp"
   ],
   "author": "grahams",
-  "license": "ISC",
+  "license": "whatevs",
   "dependencies": {
     "express": "^4.11.2",
     "http-proxy": "^1.8.1"

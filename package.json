@@ -1,0 +1,22 @@
+{
+  "name": "bnfe",
+  "version": "1.0.0",
+  "description": "UI for bannination.com v3",
+  "main": "simple_node_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bnfe.git"
+  },
+  "keywords": [
+    "bannination meta derp"
+  ],
+  "author": "grahams",
+  "license": "whatevs",
+  "dependencies": {
+    "express": "^4.11.2",
+    "http-proxy": "^1.8.1"
+  }
+}

@@ -16,7 +16,7 @@ var proxy = httpProxy.createProxyServer({});
 
 var server = http.createServer(function (req, res) {
 
-    if (req.url.indexOf("/v3/") == 0) {
+    if (req.url.indexOf("/v3/") === 0) {
         proxy.web(req, res, { target: 'http://www.bannination.com/' });
     } else {
         proxy.web(req, res, { target: 'http://localhost:8001/' });
@@ -24,5 +24,5 @@ var server = http.createServer(function (req, res) {
     }
 });
 
-console.log("listening on port 8000")
+console.log("listening on port 8000");
 server.listen(8000);

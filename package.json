@@ -17,6 +17,7 @@
   "license": "whatevs",
   "dependencies": {
     "express": "^4.11.2",
-    "http-proxy": "^1.8.1"
+    "http-proxy": "^1.8.1",
+    "jshint": "^2.6.0"
   }
 }

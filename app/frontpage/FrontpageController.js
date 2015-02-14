@@ -7,7 +7,7 @@ app.controller('FrontpageController', function ($scope, bnDataFactory) {
         // This cleans up some abbreviations in the json
 
         data.forEach(function (story) {
-            if (story.url == "") {
+            if (story.url === "") {
                 story.url = "#/comments/" + story.storyId;
                 story.source = "bN Discussion Thread";
             } else {
